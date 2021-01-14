@@ -8,4 +8,4 @@ Use this auto-clicker to create and execute your own click lists
 
 4. Install requirements:
     - Set up PIP. <a href="https://nitratine.net/blog/post/how-to-setup-pythons-pip/">How to do it</a>
-    - Run CMD and run command ```` pip install pynput ````.
+    - Install requirements running ```` requirementsInstaller.py ````.
