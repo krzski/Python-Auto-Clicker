@@ -1,9 +1,15 @@
 import time
+import sys
+import subprocess
+
 from pynput.mouse import Button, Controller
 mouse = Controller()
 
 from pynput.keyboard import Controller
 keyboard = Controller()
+
+# Installing required elements
+subprocess.check_call([sys.executable,'-m', 'pip', 'install', 'pynput'])
 
 # Set mouse coordinates (X, Y). If you want check coordinates use checkCoordinates.py
 mouse.position = (900, 500)
